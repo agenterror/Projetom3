@@ -16,19 +16,19 @@ tecnologia,empresa(tec_emp)1,n-1,1
 empresa,colaboradores(emp_col)1,1-1,n
 
 4- Simule 2 registros para cada entidade
-1-Tecnologia
+#Tecnologia
 insert into tecnologia(nome_tec,tipo_tec,data)
 values
 ('SQL','WEBDEV','2023-12-25')
 ('POWERBI','WEBDEV','2023-12-25')
 
-2- empresa
+# empresa
 insert into empresa(nome_emp,endereco_emp,telefone_emp, data)
 values
 ('hstark',''toronto','95956210',data)
 ('BRA','RJ','25103652',data)
 
-3- Colaboradores
+# Colaboradores
 insert into colaboradores(nome_cl,cpf_cl,endereco_cl, data)
 values
 ('chris','15520034177','lisboa','2023-12-15')
@@ -56,19 +56,19 @@ technology,company(tec_emp)1,n-1,1
 company,employees(emp_col)1,1-1,n
 
 4- Simulate 2 records for each entity
-1-Technology
+#Technology
 insert into technology(tech_name,tech_type,date)
 values
 ('SQL','WEBDEV','2023-12-25')
 ('POWERBI','WEBDEV','2023-12-25')
 
-2- company
+ #company
 insert into company(emp_name,emp_address,emp_phone, date)
 values
 ('hstark',''toronto','95956210',data)
 ('BRA','RJ','25103652',data)
 
-3- Collaborators
+#Collaborators
 insert into collaborators(name_cl,cpf_cl,address_cl, date)
 values
 ('chris','15520034177','lisboa','2023-12-15')
